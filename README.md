@@ -1,4 +1,4 @@
-# Diabetes-Prediction-
+# Diabetes-Prediction
 Logistic Regression, Random Forest, Decision Tree, NB, XGBoost
 
 About the Disease:
