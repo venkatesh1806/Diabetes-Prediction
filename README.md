@@ -62,5 +62,6 @@ Validated models using appropriate evaluation metrics.
 
 
 **Conclusion:**
+
 From the EDA we can see that diabetes doesn’t have any specific age or BMI level, perhaps all the factors are equally responsible. Patient between the age of 20-30 years has the highest levels of BMI which is over 45 are more prone to diabetes. The pregnant women are more prone to it than normal individuals.  
 We can see that using the bagging algorithms, the accuracy of the models increased efficiently. But further performing Boosting Algorithms increased the accuracy to 81% with is the best until now.
