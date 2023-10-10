@@ -1,14 +1,14 @@
 # Diabetes-Prediction
 Logistic Regression, Random Forest, Decision Tree, NB, XGBoost
 
-About the Disease:
+**About the Disease:**
 Diabetes Mellitus often famously called as Diabetes is s a group of metabolic disorders characterized by a high blood sugar level over a prolonged period of time.  It is due to either the pancreas not producing enough insulin, or the cells of the body not responding properly to the insulin produced. The symptoms include increased hunger, increased thirst, weight loss, frequent urination, blurry vision, extreme fatigue, sores that don’t heal. Diabetes is classified as Type 1, Type II and Gestational diabetes.
 CDC’s Division of Diabetes Translation report states that 34.2 million Americans—just over 1 in 10—have diabetes and 88 million American adults—approximately 1 in 3—have prediabetes.
 
-Problem Statement:
+**Problem Statement:**
 The dataset chosen by me is for the disease diabetes, we are going to predict where or not a person has diabetes based on the various several medical predictors like insulin level, age, BMI etc. “The objective of the dataset is to predict (diagnostically) whether a patient has diabetes mellitus or not based on certain medical measurements included in the dataset”
 
-About the Dataset:
+**About the Dataset:**
 This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The datasets consist of medical predictor variables such as the number of pregnancies the patient has had, their BMI, insulin level, age, etc. and one target variable, Outcome. 
 The following are the attributes and their information:
 1.	Number of times pregnant
@@ -22,7 +22,7 @@ The following are the attributes and their information:
 9.	Outcome variable (0 or 1)
 Its observed that there are 768 observations with 9 variables
 
-Steps performed:
+**Steps performed:**
 1.	Loading and understanding the data
 2.	Exploratory Data Analysis
 3.	Cleaning the data
@@ -30,8 +30,37 @@ Steps performed:
 5.	Combine Model Predictions into Ensemble Predictions
 6.	Feature Selection and XGBoost
 
+**Project Summary:**
 
- 
-Conclusion:
+1. Conducted analysis to predict diabetes mellitus based on medical predictors.
+2. Leveraged a dataset from the National Institute of Diabetes and Digestive and Kidney Diseases.
+3. Explored and cleaned data, performed feature selection, and implemented machine learning models.
+4. Achieved an accuracy rate of 81% using Boosting Algorithms for diabetes prediction.
+
+
+**Data Exploration and Cleaning:**
+
+Conducted thorough data exploration to understand the dataset's structure and characteristics.
+Identified and addressed missing values, outliers, and data inconsistencies.
+Ensured data integrity and prepared the dataset for analysis.
+
+
+**Feature Selection:**
+
+Employed feature selection techniques to identify the most relevant predictors for diabetes prediction.
+Removed irrelevant or redundant features to improve model efficiency.
+Enhanced model interpretability by selecting essential variables.
+
+
+**Machine Learning Model Implementation:**
+
+Developed and implemented machine learning models for diabetes prediction.
+Evaluated various algorithms to select the most suitable ones for the task.
+Fine-tuned model hyperparameters to optimize predictive performance.
+Validated models using appropriate evaluation metrics.
+
+
+
+**Conclusion:**
 From the EDA we can see that diabetes doesn’t have any specific age or BMI level, perhaps all the factors are equally responsible. Patient between the age of 20-30 years has the highest levels of BMI which is over 45 are more prone to diabetes. The pregnant women are more prone to it than normal individuals.  
 We can see that using the bagging algorithms, the accuracy of the models increased efficiently. But further performing Boosting Algorithms increased the accuracy to 81% with is the best until now.
